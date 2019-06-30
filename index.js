@@ -11,10 +11,7 @@ searchForm.addEventListener('submit', e => {
   const sortBy = document.querySelector('input[name="sortby"]:checked').value;
   //Get limit
   const searchLimit = document.getElementById('limit').value;
-  //Get after
-  // const after = document.getElementById('after');
-
-
+ 
   //Check Input
   if(searchTerm === '') {
     //Show message
