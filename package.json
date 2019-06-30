@@ -1,0 +1,16 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Reddit search app",
+  "main": "index.js",
+  "homepage":"https://nicolaerastau.github.io/Fetch-api",
+  "start": "parcel src/index.html --out-dir docs",
+"build": "parcel build src/index.html --out-dir docs --public-url ./"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
+  "author": "Nicolae",
+  "license": "MIT"
+}
